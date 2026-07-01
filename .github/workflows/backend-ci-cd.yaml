@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   backend-ci:
-    uses: linga-devsecops-actions/14.12.github-actions-expense-reusable-workflows/.github/workflows/nodejs-common.yaml@main
+    uses: linga-devsecops-actions/14.12.github-actions-expense-reusable-workflows/.github/workflows/backend-nodejs-common.yaml@main
     with:
       project: expense
       component: backend
